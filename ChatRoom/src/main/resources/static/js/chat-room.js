@@ -35,6 +35,7 @@ function sendMassMessage() {
     var chatValue = $("#sendChatValue").val();
     var userName = $("#userName").val();
     // 发送者的名字
+
     postValue.senderId = userName;
     // 发送的内容
     postValue.sendInfo = chatValue;
