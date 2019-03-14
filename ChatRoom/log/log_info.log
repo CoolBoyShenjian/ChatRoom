@@ -1,0 +1,533 @@
+2019-03-14 10:21:39.226 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 2984 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-03-14 10:21:39.229 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-03-14 10:21:39.878 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 10:21:39.903 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-03-14 10:21:40.166 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2062596f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 10:21:40.427 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-03-14 10:21:40.441 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-03-14 10:21:40.451 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-14 10:21:40.451 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-14 10:21:40.457 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-03-14 10:21:40.570 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-14 10:21:40.570 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1298 ms
+2019-03-14 10:21:40.789 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-03-14 10:21:40.868 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-03-14 10:21:41.654 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-14 10:21:41.910 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-03-14 10:21:41.914 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-03-14 10:21:41.929 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-03-14 10:21:41.960 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-03-14 10:21:42.327 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-03-14 10:21:42.327 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-03-14 10:21:42.328 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-03-14 10:21:42.345 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-03-14 10:21:42.367 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-03-14 10:21:42.369 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.293 seconds (JVM running for 5.405)
+2019-03-14 10:22:13.366 [http-nio-8081-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 10:22:13.366 [http-nio-8081-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-14 10:22:13.373 [http-nio-8081-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-03-14 10:22:13.381 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:22:13.381 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js
+2019-03-14 10:22:13.381 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery-1.12.4.min.js
+2019-03-14 10:22:13.381 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/stomp.min.js
+2019-03-14 10:22:13.382 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js
+2019-03-14 10:22:13.383 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/stomp.min.js
+2019-03-14 10:22:13.382 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:22:13.382 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery-1.12.4.min.js
+2019-03-14 10:22:14.136 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:22:14.136 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:22:14.148 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/732/cey4ouyt/websocket
+2019-03-14 10:22:14.148 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/732/cey4ouyt/websocket
+2019-03-14 10:22:41.964 [MessageBroker-4] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 8, active threads = 0, queued tasks = 0, completed tasks = 9], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 7]
+2019-03-14 10:22:47.797 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:22:47.798 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:22:59.610 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:22:59.610 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:23:00.526 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:23:00.526 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:23:00.534 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/200/rsamlyls/websocket
+2019-03-14 10:23:00.534 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/200/rsamlyls/websocket
+2019-03-14 10:23:49.123 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:23:49.124 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:24:45.638 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 7548 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-03-14 10:24:45.639 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-03-14 10:24:46.701 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 10:24:46.732 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 repository interfaces.
+2019-03-14 10:24:47.027 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35d0a371] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 10:24:47.314 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-03-14 10:24:47.328 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-03-14 10:24:47.337 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-14 10:24:47.338 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-14 10:24:47.345 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-03-14 10:24:47.484 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-14 10:24:47.484 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1765 ms
+2019-03-14 10:24:47.749 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-03-14 10:24:47.843 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-03-14 10:24:48.716 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-14 10:24:49.029 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-03-14 10:24:49.033 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-03-14 10:24:49.052 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-03-14 10:24:49.100 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-03-14 10:24:49.447 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-03-14 10:24:49.447 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-03-14 10:24:49.448 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-03-14 10:24:49.471 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-03-14 10:24:49.491 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-03-14 10:24:49.494 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.611 seconds (JVM running for 5.574)
+2019-03-14 10:24:53.214 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 10:24:53.214 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-14 10:24:53.222 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-03-14 10:24:53.229 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:24:53.230 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:24:53.233 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->D673F31EF151E8649C65807AC9EFE48F
+2019-03-14 10:24:53.233 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - 这是单人聊天室的Filter--> 没有登录所以跳转到首面
+2019-03-14 10:24:53.239 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 10:24:53.239 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 10:24:53.318 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/index/index_style.css
+2019-03-14 10:24:53.318 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/index/index_style.css
+2019-03-14 10:24:53.663 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/index/timg.jpg
+2019-03-14 10:24:53.664 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/index/timg.jpg
+2019-03-14 10:25:07.960 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:25:07.960 [http-nio-8081-exec-6] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:25:07.960 [http-nio-8081-exec-6] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->D673F31EF151E8649C65807AC9EFE48F
+2019-03-14 10:25:07.960 [http-nio-8081-exec-6] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - 这是单人聊天室的Filter--> 没有登录所以跳转到首面
+2019-03-14 10:25:07.965 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 10:25:07.965 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 10:25:21.190 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 4528 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-03-14 10:25:21.210 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-03-14 10:25:21.992 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 10:25:22.017 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-03-14 10:25:22.286 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4c8cea98] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 10:25:22.577 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-03-14 10:25:22.589 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-03-14 10:25:22.598 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-14 10:25:22.599 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-14 10:25:22.605 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-03-14 10:25:22.727 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-14 10:25:22.727 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1338 ms
+2019-03-14 10:25:22.894 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-03-14 10:25:23.073 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-03-14 10:25:23.863 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-14 10:25:24.124 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-03-14 10:25:24.129 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-03-14 10:25:24.146 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-03-14 10:25:24.182 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-03-14 10:25:24.578 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-03-14 10:25:24.578 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-03-14 10:25:24.579 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-03-14 10:25:24.600 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-03-14 10:25:24.623 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-03-14 10:25:24.625 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.353 seconds (JVM running for 5.291)
+2019-03-14 10:25:31.429 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 10:25:31.429 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-14 10:25:31.437 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-03-14 10:25:31.444 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:25:31.445 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:25:31.448 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->28FE3FDDDA1BF219FD292CEDEC08E300
+2019-03-14 10:25:31.448 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - 这是单人聊天室的Filter--> 没有登录所以跳转到首面
+2019-03-14 10:25:47.888 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:25:47.889 [http-nio-8081-exec-3] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:25:47.889 [http-nio-8081-exec-3] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->28FE3FDDDA1BF219FD292CEDEC08E300
+2019-03-14 10:25:47.889 [http-nio-8081-exec-3] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - 这是单人聊天室的Filter--> 没有登录所以跳转到首面
+2019-03-14 10:26:24.185 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-03-14 10:26:41.953 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 10:26:41.953 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 10:26:42.060 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/signIn/signIn_style.css
+2019-03-14 10:26:42.060 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/signIn/signIn_style.css
+2019-03-14 10:26:42.210 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/signIn/bg.jpg
+2019-03-14 10:26:42.210 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/signIn/bg.jpg
+2019-03-14 10:26:49.726 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 10:26:49.726 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 10:26:49.728 [http-nio-8081-exec-9] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle !
+2019-03-14 10:26:49.728 [http-nio-8081-exec-9] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle--> /signIn
+2019-03-14 10:26:49.785 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.controller.SignInController - signIn userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='qwer', userName='null', userPassword='123', userPhoneNo='null', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-03-14 10:26:49.838 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.dao.SignInDaoImpl - 登录成功
+2019-03-14 10:26:49.838 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.controller.SignInController - signIn loginName--> qwer
+2019-03-14 10:26:49.883 [http-nio-8081-exec-9] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor postHandle !
+2019-03-14 10:26:51.160 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:26:51.161 [http-nio-8081-exec-10] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:26:51.161 [http-nio-8081-exec-10] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->28FE3FDDDA1BF219FD292CEDEC08E300
+2019-03-14 10:26:51.161 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:26:51.180 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:26:51.180 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:26:51.223 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:26:51.223 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:26:51.232 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/517/cbghe144/websocket
+2019-03-14 10:26:51.233 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/517/cbghe144/websocket
+2019-03-14 10:27:01.892 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:27:01.892 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:27:01.951 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:27:01.952 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:27:01.981 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:27:01.981 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:27:02.008 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/935/ndj5nbkx/websocket
+2019-03-14 10:27:02.016 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/935/ndj5nbkx/websocket
+2019-03-14 10:27:22.491 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:27:22.491 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:28:15.955 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 808 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-03-14 10:28:15.956 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-03-14 10:28:16.651 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 10:28:16.678 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-03-14 10:28:16.948 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd0418f5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 10:28:17.229 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-03-14 10:28:17.242 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-03-14 10:28:17.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-14 10:28:17.251 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-14 10:28:17.257 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-03-14 10:28:17.411 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-14 10:28:17.412 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1417 ms
+2019-03-14 10:28:17.552 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-03-14 10:28:17.709 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-03-14 10:28:18.502 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-14 10:28:18.782 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-03-14 10:28:18.786 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-03-14 10:28:18.802 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-03-14 10:28:18.832 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-03-14 10:28:19.181 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-03-14 10:28:19.182 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-03-14 10:28:19.183 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-03-14 10:28:19.201 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-03-14 10:28:19.223 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-03-14 10:28:19.225 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.258 seconds (JVM running for 5.196)
+2019-03-14 10:28:22.475 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 10:28:22.475 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-14 10:28:22.483 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-03-14 10:28:22.489 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:28:22.490 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:28:22.494 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->454D593E5FF8D58B20C188F503960403
+2019-03-14 10:28:22.494 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - 这是单人聊天室的Filter--> 没有登录所以跳转到首面
+2019-03-14 10:28:22.499 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 10:28:22.499 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 10:28:29.340 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 10:28:29.340 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 10:28:35.194 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 10:28:35.194 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 10:28:35.196 [http-nio-8081-exec-5] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle !
+2019-03-14 10:28:35.196 [http-nio-8081-exec-5] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle--> /signIn
+2019-03-14 10:28:35.228 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.controller.SignInController - signIn userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='qwer', userName='null', userPassword='123', userPhoneNo='null', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-03-14 10:28:35.280 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.dao.SignInDaoImpl - 登录成功
+2019-03-14 10:28:35.280 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.controller.SignInController - signIn loginName--> qwer
+2019-03-14 10:28:35.329 [http-nio-8081-exec-5] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor postHandle !
+2019-03-14 10:28:36.383 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:28:36.383 [http-nio-8081-exec-6] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:28:36.383 [http-nio-8081-exec-6] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->454D593E5FF8D58B20C188F503960403
+2019-03-14 10:28:36.383 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:28:36.416 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:28:36.416 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:28:36.491 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:28:36.491 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:28:36.501 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:28:36.501 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:28:36.518 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/686/jgiln5c4/websocket
+2019-03-14 10:28:36.518 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/686/jgiln5c4/websocket
+2019-03-14 10:28:44.191 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:28:44.194 [http-nio-8081-exec-2] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:28:44.194 [http-nio-8081-exec-2] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->454D593E5FF8D58B20C188F503960403
+2019-03-14 10:28:44.194 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 10:28:44.212 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:28:44.212 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 10:28:44.256 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:28:44.257 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 10:28:44.273 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:28:44.273 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 10:28:44.282 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/475/uglql3es/websocket
+2019-03-14 10:28:44.282 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/475/uglql3es/websocket
+2019-03-14 10:28:57.246 [clientInboundChannel-6] INFO  com.shenjian.chatroom.controller.StompController - 用户：ami 发送的信息是：fsda 接收者是：lina
+2019-03-14 10:29:06.006 [clientInboundChannel-1] INFO  com.shenjian.chatroom.controller.StompController - 用户：lina 发送的信息是：xcbz 接收者是：ami
+2019-03-14 14:21:53.395 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 9028 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-03-14 14:21:53.396 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-03-14 14:21:54.024 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 14:21:54.049 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-03-14 14:21:54.307 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5de1522b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 14:21:54.578 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-03-14 14:21:54.590 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-03-14 14:21:54.597 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-14 14:21:54.597 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-14 14:21:54.603 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-03-14 14:21:54.737 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-14 14:21:54.738 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1298 ms
+2019-03-14 14:21:54.939 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-03-14 14:21:55.027 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-03-14 14:21:55.839 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-14 14:21:56.109 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-03-14 14:21:56.113 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-03-14 14:21:56.128 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-03-14 14:21:56.157 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-03-14 14:21:56.505 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-03-14 14:21:56.505 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-03-14 14:21:56.506 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-03-14 14:21:56.546 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-03-14 14:21:56.565 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-03-14 14:21:56.567 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.134 seconds (JVM running for 5.102)
+2019-03-14 14:22:20.815 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 14:22:20.815 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-14 14:22:20.823 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-03-14 14:22:20.828 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/
+2019-03-14 14:22:20.829 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - requestUrl 为空
+2019-03-14 14:22:20.833 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 14:22:20.834 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 14:22:20.914 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/index/index_style.css
+2019-03-14 14:22:20.915 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/index/index_style.css
+2019-03-14 14:22:20.965 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/index/timg.jpg
+2019-03-14 14:22:20.966 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/index/timg.jpg
+2019-03-14 14:22:29.177 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:22:29.177 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:22:30.132 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:22:30.132 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:22:30.183 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 14:22:30.183 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 14:22:30.201 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:22:30.201 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:22:30.220 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/933/sqjzdpbw/websocket
+2019-03-14 14:22:30.221 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/933/sqjzdpbw/websocket
+2019-03-14 14:22:39.492 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:22:39.493 [http-nio-8081-exec-9] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:22:39.497 [http-nio-8081-exec-9] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->2C955B0E1F93E9E2B6756B8E8256C0BC
+2019-03-14 14:22:39.497 [http-nio-8081-exec-9] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - 这是单人聊天室的Filter--> 没有登录所以跳转到首面
+2019-03-14 14:22:39.503 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 14:22:39.504 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 14:22:49.322 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/registe.html
+2019-03-14 14:22:49.323 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/registe.html
+2019-03-14 14:22:49.351 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/registe/registe_style.css
+2019-03-14 14:22:49.351 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/registe/registe_style.css
+2019-03-14 14:22:49.646 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/registe/bg.jpg
+2019-03-14 14:22:49.646 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/registe/bg.jpg
+2019-03-14 14:22:56.161 [MessageBroker-4] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 1, completed tasks = 6]
+2019-03-14 14:23:03.008 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/login_in.html
+2019-03-14 14:23:03.008 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/login_in.html
+2019-03-14 14:23:44.891 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 14:23:44.891 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 14:23:44.919 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:23:44.919 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:23:54.771 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 14:23:54.771 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 14:23:54.772 [http-nio-8081-exec-9] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle !
+2019-03-14 14:23:54.772 [http-nio-8081-exec-9] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle--> /signIn
+2019-03-14 14:23:54.788 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.controller.SignInController - signIn userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='qwer', userName='null', userPassword='123', userPhoneNo='null', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-03-14 14:23:55.036 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.dao.SignInDaoImpl - 登录成功
+2019-03-14 14:23:55.037 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.controller.SignInController - signIn loginName--> qwer
+2019-03-14 14:23:55.050 [http-nio-8081-exec-9] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor postHandle !
+2019-03-14 14:23:57.034 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:23:57.035 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:23:57.035 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->2C955B0E1F93E9E2B6756B8E8256C0BC
+2019-03-14 14:23:57.035 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:23:57.063 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:23:57.063 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:23:57.124 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 14:23:57.124 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 14:23:58.227 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:23:58.227 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:23:58.240 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/019/km2u13ao/websocket
+2019-03-14 14:23:58.240 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/019/km2u13ao/websocket
+2019-03-14 14:35:35.631 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 1012 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-03-14 14:35:35.632 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-03-14 14:35:36.546 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 14:35:36.572 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-03-14 14:35:36.871 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a343b362] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 14:35:37.180 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-03-14 14:35:37.192 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-03-14 14:35:37.199 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-14 14:35:37.199 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-14 14:35:37.204 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-03-14 14:35:37.310 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-14 14:35:37.310 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1518 ms
+2019-03-14 14:35:37.452 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-03-14 14:35:37.615 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-03-14 14:35:38.423 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-14 14:35:38.706 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-03-14 14:35:38.710 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-03-14 14:35:38.726 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-03-14 14:35:38.757 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-03-14 14:35:39.132 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-03-14 14:35:39.133 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-03-14 14:35:39.133 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-03-14 14:35:39.156 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-03-14 14:35:39.177 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-03-14 14:35:39.180 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.417 seconds (JVM running for 5.425)
+2019-03-14 14:35:45.917 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 14:35:45.917 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-14 14:35:45.926 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2019-03-14 14:35:45.933 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:35:45.934 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:35:45.939 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->02F9FA374B7CBC7EF8E343D6CADBCBA2
+2019-03-14 14:35:45.939 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - 这是单人聊天室的Filter--> 没有登录所以跳转到首面
+2019-03-14 14:35:45.943 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 14:35:45.943 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 14:35:49.761 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 14:35:49.761 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 14:35:49.796 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:35:49.796 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:35:50.131 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:35:50.131 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:35:58.180 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 14:35:58.180 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 14:35:58.183 [http-nio-8081-exec-7] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle !
+2019-03-14 14:35:58.183 [http-nio-8081-exec-7] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle--> /signIn
+2019-03-14 14:35:58.221 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.controller.SignInController - signIn userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='qwer', userName='null', userPassword='123', userPhoneNo='null', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-03-14 14:35:58.272 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.dao.SignInDaoImpl - 登录成功
+2019-03-14 14:35:58.273 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.controller.SignInController - signIn loginName--> qwer
+2019-03-14 14:35:58.327 [http-nio-8081-exec-7] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor postHandle !
+2019-03-14 14:35:59.542 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:35:59.542 [http-nio-8081-exec-8] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:35:59.542 [http-nio-8081-exec-8] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->02F9FA374B7CBC7EF8E343D6CADBCBA2
+2019-03-14 14:35:59.542 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:35:59.564 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:35:59.564 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:35:59.631 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 14:35:59.631 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 14:36:01.105 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:36:01.105 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:36:01.114 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/133/regst0ys/websocket
+2019-03-14 14:36:01.115 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/133/regst0ys/websocket
+2019-03-14 14:36:38.760 [MessageBroker-2] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 3], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 2, completed tasks = 9]
+2019-03-14 14:37:17.166 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 6440 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-03-14 14:37:17.168 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-03-14 14:37:18.115 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 14:37:18.142 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-03-14 14:37:18.416 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$410f7744] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 14:37:18.704 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-03-14 14:37:18.717 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-03-14 14:37:18.725 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-14 14:37:18.726 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-14 14:37:18.731 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-03-14 14:37:18.840 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-14 14:37:18.841 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1618 ms
+2019-03-14 14:37:19.049 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-03-14 14:37:19.145 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-03-14 14:37:19.979 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-14 14:37:20.237 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-03-14 14:37:20.242 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-03-14 14:37:20.258 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-03-14 14:37:20.286 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-03-14 14:37:20.635 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-03-14 14:37:20.636 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-03-14 14:37:20.636 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-03-14 14:37:20.653 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-03-14 14:37:20.672 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-03-14 14:37:20.674 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.26 seconds (JVM running for 5.133)
+2019-03-14 14:37:24.163 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 14:37:24.163 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-14 14:37:24.171 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-03-14 14:37:24.178 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:37:24.180 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:37:24.184 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->2731440082751F5AA2F9974EB599F51A
+2019-03-14 14:37:24.184 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - 这是单人聊天室的Filter--> 没有登录所以跳转到首面
+2019-03-14 14:37:24.207 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 14:37:24.207 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/index.html
+2019-03-14 14:37:24.334 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery-1.12.4.min.js
+2019-03-14 14:37:24.334 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery-1.12.4.min.js
+2019-03-14 14:37:24.335 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/index/index_style.css
+2019-03-14 14:37:24.335 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/index/index_style.css
+2019-03-14 14:37:24.376 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/index/timg.jpg
+2019-03-14 14:37:24.376 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/index/timg.jpg
+2019-03-14 14:37:24.707 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/favicon.ico
+2019-03-14 14:37:24.707 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/favicon.ico
+2019-03-14 14:37:28.935 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 14:37:28.936 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 14:37:28.954 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:37:28.954 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:37:28.958 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/signIn/signIn_style.css
+2019-03-14 14:37:28.958 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/signIn/signIn_style.css
+2019-03-14 14:37:28.975 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/signIn/bg.jpg
+2019-03-14 14:37:28.975 [http-nio-8081-exec-9] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/signIn/bg.jpg
+2019-03-14 14:37:43.459 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 14:37:43.459 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 14:37:43.461 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle !
+2019-03-14 14:37:43.461 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle--> /signIn
+2019-03-14 14:37:43.496 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.SignInController - signIn userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='qwer', userName='null', userPassword='123', userPhoneNo='null', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-03-14 14:37:43.568 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.dao.SignInDaoImpl - 登录成功
+2019-03-14 14:37:43.568 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.SignInController - signIn loginName--> qwer
+2019-03-14 14:37:43.613 [http-nio-8081-exec-1] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor postHandle !
+2019-03-14 14:37:44.885 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:37:44.885 [http-nio-8081-exec-2] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:37:44.885 [http-nio-8081-exec-2] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->2731440082751F5AA2F9974EB599F51A
+2019-03-14 14:37:44.885 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:37:44.903 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js
+2019-03-14 14:37:44.903 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js
+2019-03-14 14:37:44.907 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/stomp.min.js
+2019-03-14 14:37:44.907 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/stomp.min.js
+2019-03-14 14:37:44.910 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:37:44.911 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:37:45.002 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 14:37:45.002 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/sockjs.min.js.map
+2019-03-14 14:37:47.163 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:37:47.163 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:37:47.175 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/367/24jjdas3/websocket
+2019-03-14 14:37:47.175 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/367/24jjdas3/websocket
+2019-03-14 14:48:11.220 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 7488 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-03-14 14:48:11.221 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-03-14 14:48:11.928 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-14 14:48:11.956 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-03-14 14:48:12.250 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$28d96513] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-14 14:48:12.532 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-03-14 14:48:12.543 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-03-14 14:48:12.550 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-03-14 14:48:12.551 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-14 14:48:12.556 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-03-14 14:48:12.670 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-03-14 14:48:12.670 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1397 ms
+2019-03-14 14:48:12.907 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-03-14 14:48:12.987 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-03-14 14:48:13.937 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-03-14 14:48:14.230 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-03-14 14:48:14.235 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-03-14 14:48:14.256 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-03-14 14:48:14.289 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-03-14 14:48:14.697 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-03-14 14:48:14.698 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-03-14 14:48:14.699 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-03-14 14:48:14.727 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-03-14 14:48:14.749 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-03-14 14:48:14.753 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.469 seconds (JVM running for 5.541)
+2019-03-14 14:48:21.999 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-14 14:48:21.999 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-03-14 14:48:22.006 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-03-14 14:48:22.014 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/registe.html
+2019-03-14 14:48:22.014 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/registe.html
+2019-03-14 14:48:22.100 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/registe/registe_style.css
+2019-03-14 14:48:22.100 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/css/registe/registe_style.css
+2019-03-14 14:48:22.133 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/registe/bg.jpg
+2019-03-14 14:48:22.134 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/images/registe/bg.jpg
+2019-03-14 14:48:33.230 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/registe
+2019-03-14 14:48:33.230 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/registe
+2019-03-14 14:48:33.264 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='qqqq', userName='asd', userPassword='123', userPhoneNo='132', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-03-14 14:48:33.264 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - this is RegisteServiceImpl !
+2019-03-14 14:48:33.265 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - userInfo--> sj303582245590011904
+2019-03-14 14:48:33.269 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.dao.RegisteDaoImpl - this is RegisteDaoImpl !
+2019-03-14 14:48:33.397 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.dao.RegisteDaoImpl - result --> 1
+2019-03-14 14:48:33.397 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - 用户入库成功
+2019-03-14 14:48:35.927 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:48:35.927 [http-nio-8081-exec-6] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:48:35.935 [http-nio-8081-exec-6] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->6C1DCB6A404DCB3412EABAA40D760810
+2019-03-14 14:48:35.936 [http-nio-8081-exec-6] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - 这是单人聊天室的Filter--> 没有登录所以跳转到首面
+2019-03-14 14:48:45.501 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 14:48:45.501 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/sign_in.html
+2019-03-14 14:48:45.530 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:48:45.530 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/jquery.cookie.js
+2019-03-14 14:48:50.627 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 14:48:50.627 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/signIn
+2019-03-14 14:48:50.627 [http-nio-8081-exec-10] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle !
+2019-03-14 14:48:50.627 [http-nio-8081-exec-10] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor preHandle--> /signIn
+2019-03-14 14:48:50.629 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.controller.SignInController - signIn userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='qqqq', userName='null', userPassword='123', userPhoneNo='null', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-03-14 14:48:50.647 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.dao.SignInDaoImpl - 登录成功
+2019-03-14 14:48:50.648 [http-nio-8081-exec-10] INFO  com.shenjian.chatroom.controller.SignInController - signIn loginName--> qqqq
+2019-03-14 14:48:50.688 [http-nio-8081-exec-10] INFO  c.shenjian.chatroom.interceptor.LoginInInterceptor - This is LoginInInterceptor postHandle !
+2019-03-14 14:48:51.890 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:48:51.890 [http-nio-8081-exec-2] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:48:51.890 [http-nio-8081-exec-2] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->6C1DCB6A404DCB3412EABAA40D760810
+2019-03-14 14:48:51.890 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:48:51.913 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:48:51.913 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/js/chat-room.js
+2019-03-14 14:48:54.187 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:48:54.187 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:48:54.196 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/205/m1coyljn/websocket
+2019-03-14 14:48:54.196 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/205/m1coyljn/websocket
+2019-03-14 14:49:00.666 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:49:00.666 [http-nio-8081-exec-5] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - this is SingleChatAccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:49:00.666 [http-nio-8081-exec-5] INFO  c.shenjian.chatroom.filter.SingleChatAccessFilter - session id -->6C1DCB6A404DCB3412EABAA40D760810
+2019-03-14 14:49:00.666 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/html/single_chat.html
+2019-03-14 14:49:02.895 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:49:02.895 [http-nio-8081-exec-7] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/info
+2019-03-14 14:49:02.918 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/153/ennlqe5q/websocket
+2019-03-14 14:49:02.918 [http-nio-8081-exec-8] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter getRequestURI:/endpointMark/153/ennlqe5q/websocket
+2019-03-14 14:49:14.293 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 4, active threads = 1, queued tasks = 3, completed tasks = 5]

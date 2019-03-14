@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shenjian.chatroom.mapper.UserInfoMapper">
+  <resultMap id="BaseResultMap" type="com.shenjian.chatroom.entity.UserInfo">
+    <id column="sequence_no" jdbcType="INTEGER" property="sequenceNo" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+    <result column="login_name" jdbcType="VARCHAR" property="loginName" />
+    <result column="user_name" jdbcType="VARCHAR" property="userName" />
+    <result column="user_password" jdbcType="VARCHAR" property="userPassword" />
+    <result column="user_phone_no" jdbcType="VARCHAR" property="userPhoneNo" />
+    <result column="user_sex" jdbcType="VARCHAR" property="userSex" />
+    <result column="user_fix_line_phone_no" jdbcType="VARCHAR" property="userFixLinePhoneNo" />
+    <result column="user_qq_no" jdbcType="VARCHAR" property="userQqNo" />
+    <result column="user_wx_no" jdbcType="VARCHAR" property="userWxNo" />
+    <result column="user_address" jdbcType="VARCHAR" property="userAddress" />
+    <result column="user_identity_card" jdbcType="VARCHAR" property="userIdentityCard" />
+    <result column="user_birthday" jdbcType="VARCHAR" property="userBirthday" />
+    <result column="user_level" jdbcType="VARCHAR" property="userLevel" />
+    <result column="user_irregularities" jdbcType="VARCHAR" property="userIrregularities" />
+    <result column="creaete_date" jdbcType="TIMESTAMP" property="creaeteDate" />
+    <result column="update_date" jdbcType="TIMESTAMP" property="updateDate" />
+    <result column="reserve_coloum1" jdbcType="VARCHAR" property="reserveColoum1" />
+    <result column="reserve_coloum2" jdbcType="VARCHAR" property="reserveColoum2" />
+    <result column="reserve_coloum3" jdbcType="VARCHAR" property="reserveColoum3" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    sequence_no, user_id, login_name, user_name, user_password, user_phone_no, user_sex, 
+    user_fix_line_phone_no, user_qq_no, user_wx_no, user_address, user_identity_card, 
+    user_birthday, user_level, user_irregularities, creaete_date, update_date, reserve_coloum1, 
+    reserve_coloum2, reserve_coloum3
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from user_info
+    where sequence_no = #{sequenceNo,jdbcType=INTEGER}
+  </select>
+  <select id="selectByLoginName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from user_info
+    where login_name = #{loginName,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from user_info
+    where sequence_no = #{sequenceNo,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.shenjian.chatroom.entity.UserInfo">
+    insert into user_info (sequence_no, user_id, login_name, 
+      user_name, user_password, user_phone_no, 
+      user_sex, user_fix_line_phone_no, user_qq_no, 
+      user_wx_no, user_address, user_identity_card, 
+      user_birthday, user_level, user_irregularities, 
+      creaete_date, update_date, reserve_coloum1, 
+      reserve_coloum2, reserve_coloum3)
+    values (#{sequenceNo,jdbcType=INTEGER}, #{userId,jdbcType=VARCHAR}, #{loginName,jdbcType=VARCHAR}, 
+      #{userName,jdbcType=VARCHAR}, #{userPassword,jdbcType=VARCHAR}, #{userPhoneNo,jdbcType=VARCHAR}, 
+      #{userSex,jdbcType=VARCHAR}, #{userFixLinePhoneNo,jdbcType=VARCHAR}, #{userQqNo,jdbcType=VARCHAR}, 
+      #{userWxNo,jdbcType=VARCHAR}, #{userAddress,jdbcType=VARCHAR}, #{userIdentityCard,jdbcType=VARCHAR}, 
+      #{userBirthday,jdbcType=VARCHAR}, #{userLevel,jdbcType=VARCHAR}, #{userIrregularities,jdbcType=VARCHAR}, 
+      #{creaeteDate,jdbcType=TIMESTAMP}, #{updateDate,jdbcType=TIMESTAMP}, #{reserveColoum1,jdbcType=VARCHAR}, 
+      #{reserveColoum2,jdbcType=VARCHAR}, #{reserveColoum3,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.shenjian.chatroom.entity.UserInfo">
+    insert into user_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="sequenceNo != null">
+        sequence_no,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+      <if test="loginName != null">
+        login_name,
+      </if>
+      <if test="userName != null">
+        user_name,
+      </if>
+      <if test="userPassword != null">
+        user_password,
+      </if>
+      <if test="userPhoneNo != null">
+        user_phone_no,
+      </if>
+      <if test="userSex != null">
+        user_sex,
+      </if>
+      <if test="userFixLinePhoneNo != null">
+        user_fix_line_phone_no,
+      </if>
+      <if test="userQqNo != null">
+        user_qq_no,
+      </if>
+      <if test="userWxNo != null">
+        user_wx_no,
+      </if>
+      <if test="userAddress != null">
+        user_address,
+      </if>
+      <if test="userIdentityCard != null">
+        user_identity_card,
+      </if>
+      <if test="userBirthday != null">
+        user_birthday,
+      </if>
+      <if test="userLevel != null">
+        user_level,
+      </if>
+      <if test="userIrregularities != null">
+        user_irregularities,
+      </if>
+      <if test="creaeteDate != null">
+        creaete_date,
+      </if>
+      <if test="updateDate != null">
+        update_date,
+      </if>
+      <if test="reserveColoum1 != null">
+        reserve_coloum1,
+      </if>
+      <if test="reserveColoum2 != null">
+        reserve_coloum2,
+      </if>
+      <if test="reserveColoum3 != null">
+        reserve_coloum3,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="sequenceNo != null">
+        #{sequenceNo,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="loginName != null">
+        #{loginName,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null">
+        #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userPassword != null">
+        #{userPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="userPhoneNo != null">
+        #{userPhoneNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userSex != null">
+        #{userSex,jdbcType=VARCHAR},
+      </if>
+      <if test="userFixLinePhoneNo != null">
+        #{userFixLinePhoneNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userQqNo != null">
+        #{userQqNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userWxNo != null">
+        #{userWxNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userAddress != null">
+        #{userAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="userIdentityCard != null">
+        #{userIdentityCard,jdbcType=VARCHAR},
+      </if>
+      <if test="userBirthday != null">
+        #{userBirthday,jdbcType=VARCHAR},
+      </if>
+      <if test="userLevel != null">
+        #{userLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="userIrregularities != null">
+        #{userIrregularities,jdbcType=VARCHAR},
+      </if>
+      <if test="creaeteDate != null">
+        #{creaeteDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateDate != null">
+        #{updateDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="reserveColoum1 != null">
+        #{reserveColoum1,jdbcType=VARCHAR},
+      </if>
+      <if test="reserveColoum2 != null">
+        #{reserveColoum2,jdbcType=VARCHAR},
+      </if>
+      <if test="reserveColoum3 != null">
+        #{reserveColoum3,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.shenjian.chatroom.entity.UserInfo">
+    update user_info
+    <set>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=VARCHAR},
+      </if>
+      <if test="loginName != null">
+        login_name = #{loginName,jdbcType=VARCHAR},
+      </if>
+      <if test="userName != null">
+        user_name = #{userName,jdbcType=VARCHAR},
+      </if>
+      <if test="userPassword != null">
+        user_password = #{userPassword,jdbcType=VARCHAR},
+      </if>
+      <if test="userPhoneNo != null">
+        user_phone_no = #{userPhoneNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userSex != null">
+        user_sex = #{userSex,jdbcType=VARCHAR},
+      </if>
+      <if test="userFixLinePhoneNo != null">
+        user_fix_line_phone_no = #{userFixLinePhoneNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userQqNo != null">
+        user_qq_no = #{userQqNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userWxNo != null">
+        user_wx_no = #{userWxNo,jdbcType=VARCHAR},
+      </if>
+      <if test="userAddress != null">
+        user_address = #{userAddress,jdbcType=VARCHAR},
+      </if>
+      <if test="userIdentityCard != null">
+        user_identity_card = #{userIdentityCard,jdbcType=VARCHAR},
+      </if>
+      <if test="userBirthday != null">
+        user_birthday = #{userBirthday,jdbcType=VARCHAR},
+      </if>
+      <if test="userLevel != null">
+        user_level = #{userLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="userIrregularities != null">
+        user_irregularities = #{userIrregularities,jdbcType=VARCHAR},
+      </if>
+      <if test="creaeteDate != null">
+        creaete_date = #{creaeteDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateDate != null">
+        update_date = #{updateDate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="reserveColoum1 != null">
+        reserve_coloum1 = #{reserveColoum1,jdbcType=VARCHAR},
+      </if>
+      <if test="reserveColoum2 != null">
+        reserve_coloum2 = #{reserveColoum2,jdbcType=VARCHAR},
+      </if>
+      <if test="reserveColoum3 != null">
+        reserve_coloum3 = #{reserveColoum3,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where sequence_no = #{sequenceNo,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.shenjian.chatroom.entity.UserInfo">
+    update user_info
+    set user_id = #{userId,jdbcType=VARCHAR},
+      login_name = #{loginName,jdbcType=VARCHAR},
+      user_name = #{userName,jdbcType=VARCHAR},
+      user_password = #{userPassword,jdbcType=VARCHAR},
+      user_phone_no = #{userPhoneNo,jdbcType=VARCHAR},
+      user_sex = #{userSex,jdbcType=VARCHAR},
+      user_fix_line_phone_no = #{userFixLinePhoneNo,jdbcType=VARCHAR},
+      user_qq_no = #{userQqNo,jdbcType=VARCHAR},
+      user_wx_no = #{userWxNo,jdbcType=VARCHAR},
+      user_address = #{userAddress,jdbcType=VARCHAR},
+      user_identity_card = #{userIdentityCard,jdbcType=VARCHAR},
+      user_birthday = #{userBirthday,jdbcType=VARCHAR},
+      user_level = #{userLevel,jdbcType=VARCHAR},
+      user_irregularities = #{userIrregularities,jdbcType=VARCHAR},
+      creaete_date = #{creaeteDate,jdbcType=TIMESTAMP},
+      update_date = #{updateDate,jdbcType=TIMESTAMP},
+      reserve_coloum1 = #{reserveColoum1,jdbcType=VARCHAR},
+      reserve_coloum2 = #{reserveColoum2,jdbcType=VARCHAR},
+      reserve_coloum3 = #{reserveColoum3,jdbcType=VARCHAR}
+    where sequence_no = #{sequenceNo,jdbcType=INTEGER}
+  </update>
+</mapper>

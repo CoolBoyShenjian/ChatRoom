@@ -1,0 +1,75 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
+    <link href="../css/signIn/signIn_style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="//fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<script>
+    function submitForm() {
+        $.ajax({
+            type : 'POST',
+            datatype : 'text',
+            url : '/signIn',
+            data :  $("#signInForm").serializeArray(),
+            success : function (data) {
+                alert("result : "+data.result);
+                if ("success" == data.result){
+                    $.cookie('loginName',data.loginName,{
+                        expires:1
+                    })
+                    $.cookie('userId',data.userId,{
+                        expires:1
+                    })
+                    window.location.href="single_chat.html";
+                }else {
+                    alert("请注意 : "+data.reason);
+                }
+            },
+            error: function(data) {
+                window.location.href="chat_room.html";
+                alert("error:"+data.responseText);
+            }
+        });
+    }
+</script>
+<!-- main -->
+<div class="main main-agileits">
+    <h1>This is Freedom ChatRoom</h1>
+    <div class="main-agilerow">
+        <div class="signup-wthreetop">
+            <h2>Sign In</h2>
+        </div>
+        <div class="contact-wthree">
+            <form id="signInForm">
+                <div class="form-w3step1">
+                    <input type="text" name="loginName" placeholder="Login Name" required="">
+                    <input type="password" name="userPassword" placeholder="Password" required="">
+                </div>
+                <div class="agileits-row2 w3ls-formrow2">
+                    <h3><a href="http://localhost:8081/html/registe.html">注册</a></h3>
+                </div>
+                <div class="agileits-row2 w3ls-formrow2">
+                    <h2><a href="https://www.baidu.com">忘记密码?</a></h2>
+                </div>
+
+                <input id="registeFormSubmit" type="button" onclick="submitForm()" value="确定"/>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

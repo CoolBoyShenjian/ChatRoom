@@ -1,0 +1,67 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="../js/jquery-1.12.4.min.js"></script>
+<link href="../css/registe/registe_style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="//fonts.googleapis.com/css?family=Old+Standard+TT:400,400i,700" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<script>
+	function submitForm() {
+        $.ajax({
+            type : 'POST',
+            datatype : 'text',
+            url : '/registe',
+            data :  $("#registeForm").serializeArray(),
+            success : function (data) {
+                alert("success1:"+data);
+                if ("success" == data){
+                    alert("success2:"+data);
+                    window.location.href="sign_in.html";
+                }
+            },
+            error: function(data) {
+                window.location.href="chat_room.html";
+                alert("error:"+data.responseText);
+            }
+        });
+    }
+</script>
+	<!-- main -->
+	<div class="main main-agileits">
+		<h1>This is Freedom ChatRoom</h1>
+		<div class="main-agilerow"> 
+			<div class="signup-wthreetop">
+				<h2>Welcome to Registration</h2>
+			</div>
+			<div class="contact-wthree">
+				<form id="registeForm">
+					<div class="form-w3step1">
+						<input type="text" name="loginName" placeholder="用户名" required="">
+						<input type="password" name="userPassword" placeholder="密码" required="">
+						<input type="password" name="confirm password" placeholder="确认密码" required="">
+						<input type="text" name="userName" placeholder="真实姓名" required="">
+						<input type="text" name="userPhoneNo" placeholder="手机号" required="">
+					</div>
+					<div class="agileits-row2 w3ls-formrow2">
+						<input type="checkbox" id="brand2" value="">
+						<label for="brand2"><span></span>我接收所有条款</label>
+					</div>  
+					<input id="registeFormSubmit" type="button" onclick="submitForm()" value="提交"/>
+				</form>
+			</div>  
+		</div>	
+	</div>	
+</body>
+</html>

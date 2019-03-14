@@ -1,0 +1,573 @@
+2019-02-27 09:45:49.693 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 5544 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 09:45:49.699 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 09:45:50.553 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 09:45:50.577 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-02-27 09:45:50.890 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$369295a3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 09:45:51.247 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 09:45:51.262 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 09:45:51.270 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 09:45:51.270 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 09:45:51.278 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 09:45:51.426 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 09:45:51.427 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1685 ms
+2019-02-27 09:45:51.578 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 09:45:51.756 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 09:45:52.319 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown initiated...
+2019-02-27 09:45:52.323 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown completed.
+2019-02-27 09:45:52.325 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-02-27 09:46:09.631 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 5516 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 09:46:09.633 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 09:46:10.376 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 09:46:10.391 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-02-27 09:46:10.641 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cb7d904a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 09:46:10.915 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 09:46:10.927 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 09:46:10.935 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 09:46:10.935 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 09:46:10.941 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 09:46:11.114 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 09:46:11.114 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1424 ms
+2019-02-27 09:46:11.268 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 09:46:11.408 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 09:46:11.805 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown initiated...
+2019-02-27 09:46:11.808 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown completed.
+2019-02-27 09:46:11.810 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-02-27 09:53:15.788 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 1624 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 09:53:15.790 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 09:53:16.444 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 09:53:16.459 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-02-27 09:53:16.715 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e48af1e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 09:53:16.996 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 09:53:17.009 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 09:53:17.016 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 09:53:17.016 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 09:53:17.021 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 09:53:17.139 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 09:53:17.139 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1303 ms
+2019-02-27 09:53:17.296 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 09:53:17.443 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 09:53:18.333 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 09:53:18.344 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 09:53:18.347 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown initiated...
+2019-02-27 09:53:18.351 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown completed.
+2019-02-27 09:53:18.352 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-02-27 10:00:56.693 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 2548 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:00:56.694 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:00:57.289 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:00:57.303 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-02-27 10:00:57.554 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f8519fd2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:00:57.813 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:00:57.824 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:00:57.831 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:00:57.831 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:00:57.837 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:00:57.951 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:00:57.952 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1186 ms
+2019-02-27 10:00:58.099 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:00:58.237 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:00:59.011 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:00:59.021 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:00:59.024 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown initiated...
+2019-02-27 10:00:59.027 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown completed.
+2019-02-27 10:00:59.029 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-02-27 10:05:45.103 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 5456 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:05:45.104 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:05:45.835 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:05:45.852 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-02-27 10:05:46.104 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e56f7e35] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:05:46.367 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:05:46.379 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:05:46.386 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:05:46.386 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:05:46.392 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:05:46.560 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:05:46.560 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1397 ms
+2019-02-27 10:05:46.692 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:05:46.879 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:05:47.643 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:05:47.653 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:05:47.656 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown initiated...
+2019-02-27 10:05:47.659 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown completed.
+2019-02-27 10:05:47.660 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-02-27 10:16:11.536 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 4260 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:16:11.538 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:16:12.303 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:16:12.324 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-02-27 10:16:12.603 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$410f7744] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:16:12.908 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:16:12.919 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:16:12.926 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:16:12.927 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:16:12.932 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:16:13.035 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:16:13.035 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1416 ms
+2019-02-27 10:16:13.262 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:16:13.343 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:16:14.132 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:16:14.308 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 10:16:14.312 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 10:16:14.331 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 10:16:14.368 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 10:16:14.739 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 10:16:14.739 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 10:16:14.740 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 10:16:14.760 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:16:14.783 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 10:16:14.786 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.272 seconds (JVM running for 5.174)
+2019-02-27 10:16:28.610 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 5936 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:16:28.612 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:16:29.187 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:16:29.218 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 16ms. Found 0 repository interfaces.
+2019-02-27 10:16:29.479 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$595eb6ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:16:29.760 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:16:29.773 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:16:29.781 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:16:29.782 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:16:29.788 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:16:29.900 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:16:29.900 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1231 ms
+2019-02-27 10:16:30.053 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:16:30.218 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:16:31.034 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:16:31.177 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 10:16:31.181 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 10:16:31.196 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 10:16:31.226 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 10:16:31.568 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 10:16:31.568 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 10:16:31.569 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 10:16:31.587 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:16:31.608 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 10:16:31.610 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.184 seconds (JVM running for 5.152)
+2019-02-27 10:16:43.075 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-27 10:16:43.075 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-27 10:16:43.083 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-02-27 10:16:43.093 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:43.093 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/html/registe.html
+2019-02-27 10:16:43.093 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:43.093 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/html/registe.html
+2019-02-27 10:16:43.094 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:43.094 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/html/registe.html
+2019-02-27 10:16:43.094 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:43.094 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/html/registe.html
+2019-02-27 10:16:43.203 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:43.203 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/js/jquery-1.12.4.min.js
+2019-02-27 10:16:43.204 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:43.204 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/js/jquery-1.12.4.min.js
+2019-02-27 10:16:43.204 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:43.204 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/js/jquery-1.12.4.min.js
+2019-02-27 10:16:43.204 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:43.204 [http-nio-8081-exec-3] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/js/jquery-1.12.4.min.js
+2019-02-27 10:16:43.208 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:43.208 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/css/style.css
+2019-02-27 10:16:43.208 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:43.208 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/css/style.css
+2019-02-27 10:16:43.208 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:43.208 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/css/style.css
+2019-02-27 10:16:43.209 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:43.209 [http-nio-8081-exec-2] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/css/style.css
+2019-02-27 10:16:43.275 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:43.275 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/images/bg.jpg
+2019-02-27 10:16:43.275 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:43.275 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/images/bg.jpg
+2019-02-27 10:16:43.275 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:43.275 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/images/bg.jpg
+2019-02-27 10:16:43.275 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:43.275 [http-nio-8081-exec-4] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/images/bg.jpg
+2019-02-27 10:16:49.561 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:49.562 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:16:49.562 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:49.562 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:16:49.562 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:49.562 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:16:49.562 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:49.562 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:16:49.602 [http-nio-8081-exec-5] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> com.shenjian.chatroom.entity.UserInfo@6c7acc37
+2019-02-27 10:16:58.217 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:58.217 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:16:58.217 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:58.217 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:16:58.217 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:16:58.217 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:16:58.217 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:16:58.217 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:16:58.219 [http-nio-8081-exec-6] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> com.shenjian.chatroom.entity.UserInfo@10ca7197
+2019-02-27 10:22:44.479 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 4568 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:22:44.481 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:22:45.091 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:22:45.113 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-02-27 10:22:45.367 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7230042c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:22:45.639 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:22:45.650 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:22:45.658 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:22:45.658 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:22:45.664 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:22:45.787 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:22:45.787 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1270 ms
+2019-02-27 10:22:46.016 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:22:46.098 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:22:46.882 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:22:47.038 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 10:22:47.042 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 10:22:47.057 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 10:22:47.088 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 10:22:47.440 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 10:22:47.440 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 10:22:47.441 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 10:22:47.463 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:22:47.482 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 10:22:47.485 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.115 seconds (JVM running for 5.192)
+2019-02-27 10:22:55.833 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-27 10:22:55.833 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-27 10:22:55.840 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2019-02-27 10:22:55.850 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:22:55.850 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:22:55.850 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:22:55.850 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:22:55.851 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:22:55.851 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:22:55.851 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:22:55.851 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:22:55.972 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='ge', userName='ge', userPassword='ge', userPhoneNo='ge', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-02-27 10:22:55.972 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - this is RegisteServiceImpl !
+2019-02-27 10:23:47.092 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-02-27 10:26:13.133 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 5624 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:26:13.134 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:26:29.146 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 3784 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:26:29.147 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:26:29.860 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:26:29.883 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-02-27 10:26:30.145 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$220e814b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:26:30.430 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:26:30.444 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:26:30.452 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:26:30.452 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:26:30.458 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:26:30.574 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:26:30.574 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1371 ms
+2019-02-27 10:26:30.787 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:26:30.873 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:26:31.683 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:26:31.825 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 10:26:31.828 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 10:26:31.843 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 10:26:31.872 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 10:26:32.204 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 10:26:32.204 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 10:26:32.205 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 10:26:32.222 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:26:32.242 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 10:26:32.245 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.088 seconds (JVM running for 5.056)
+2019-02-27 10:26:40.015 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-27 10:26:40.016 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-27 10:26:40.024 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-02-27 10:26:40.031 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:26:40.031 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:26:40.031 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:26:40.031 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:26:40.032 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:26:40.032 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:26:40.032 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:26:40.032 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:26:40.134 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='RWE', userName='RWE', userPassword='EW', userPhoneNo='EW', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-02-27 10:26:40.134 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - this is RegisteServiceImpl !
+2019-02-27 10:26:40.134 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.dao.RegisteDaoImpl - this is RegisteDaoImpl !
+2019-02-27 10:33:06.828 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 4064 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:33:06.830 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:33:07.772 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:33:07.789 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-02-27 10:33:08.072 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$64a7bcae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:33:08.330 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:33:08.342 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:33:08.350 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:33:08.351 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:33:08.357 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:33:08.506 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:33:08.506 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1614 ms
+2019-02-27 10:33:08.652 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:33:08.801 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:33:09.580 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:33:09.591 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:33:09.595 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown initiated...
+2019-02-27 10:33:09.598 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown completed.
+2019-02-27 10:33:09.600 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-02-27 10:34:14.908 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 5536 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:34:14.909 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:34:15.850 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:34:15.876 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-27 10:34:16.154 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7dda129d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:34:16.417 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:34:16.428 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:34:16.435 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:34:16.435 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:34:16.440 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:34:16.561 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:34:16.561 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1598 ms
+2019-02-27 10:34:16.698 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:34:16.854 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:34:17.628 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:34:17.769 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 10:34:17.773 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 10:34:17.788 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 10:34:17.815 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 10:34:18.132 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 10:34:18.132 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 10:34:18.133 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 10:34:18.150 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:34:18.168 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 10:34:18.170 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.053 seconds (JVM running for 5.006)
+2019-02-27 10:40:50.974 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 4392 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:40:50.978 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:40:51.656 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:40:51.672 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-02-27 10:40:51.925 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f80711cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:40:52.190 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:40:52.202 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:40:52.209 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:40:52.209 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:40:52.215 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:40:52.331 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:40:52.331 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1292 ms
+2019-02-27 10:40:52.491 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:40:52.680 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:40:53.440 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:40:53.450 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:40:53.453 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown initiated...
+2019-02-27 10:40:53.457 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Shutdown completed.
+2019-02-27 10:40:53.458 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2019-02-27 10:42:06.929 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 5924 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:42:06.930 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:42:07.499 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:42:07.522 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-02-27 10:42:07.778 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$64ac8e96] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:42:08.036 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:42:08.049 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:42:08.055 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:42:08.056 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:42:08.061 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:42:08.198 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:42:08.199 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1189 ms
+2019-02-27 10:42:08.338 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:42:08.511 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:42:09.262 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:42:09.403 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 10:42:09.407 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 10:42:09.422 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 10:42:09.449 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 10:42:09.798 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 10:42:09.798 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 10:42:09.799 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 10:42:09.818 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:42:09.836 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 10:42:09.839 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 3.878 seconds (JVM running for 4.829)
+2019-02-27 10:42:20.190 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-27 10:42:20.190 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-27 10:42:20.196 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-02-27 10:42:20.202 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:42:20.203 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:42:20.203 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:42:20.203 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:42:20.203 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:42:20.203 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:42:20.204 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:42:20.204 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:42:20.295 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='RWE', userName='RWE', userPassword='EW', userPhoneNo='EW', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-02-27 10:42:20.295 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - this is RegisteServiceImpl !
+2019-02-27 10:42:20.295 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.dao.RegisteDaoImpl - this is RegisteDaoImpl !
+2019-02-27 10:43:09.453 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-02-27 10:52:06.373 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 5900 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:52:06.375 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:52:07.051 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:52:07.075 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-02-27 10:52:07.324 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$c02dd53] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:52:07.593 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:52:07.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:52:07.611 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:52:07.612 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:52:07.617 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:52:07.745 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:52:07.745 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1237 ms
+2019-02-27 10:52:07.918 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:52:08.115 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:52:08.998 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:52:09.198 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 10:52:09.204 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 10:52:09.222 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 10:52:09.255 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 10:52:09.636 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 10:52:09.636 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 10:52:09.637 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 10:52:09.655 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:52:09.674 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 10:52:09.676 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.304 seconds (JVM running for 5.22)
+2019-02-27 10:52:15.934 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-27 10:52:15.934 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-27 10:52:15.942 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-02-27 10:52:15.949 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:52:15.949 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:52:15.949 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:52:15.949 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:52:15.949 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:52:15.949 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:52:15.949 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:52:15.950 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:52:16.055 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='RWE', userName='RWE', userPassword='EW', userPhoneNo='EW', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-02-27 10:52:16.055 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - this is RegisteServiceImpl !
+2019-02-27 10:52:16.060 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.dao.RegisteDaoImpl - this is RegisteDaoImpl !
+2019-02-27 10:53:14.222 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 5764 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 10:53:14.223 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 10:53:15.139 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 10:53:15.162 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-02-27 10:53:15.405 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78227a6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 10:53:15.680 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 10:53:15.693 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:53:15.701 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 10:53:15.701 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 10:53:15.708 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 10:53:15.842 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 10:53:15.842 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1538 ms
+2019-02-27 10:53:16.039 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 10:53:16.119 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 10:53:16.922 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 10:53:17.076 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 10:53:17.080 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 10:53:17.095 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 10:53:17.122 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 10:53:17.448 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 10:53:17.448 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 10:53:17.449 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 10:53:17.467 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 10:53:17.485 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 10:53:17.488 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 3.954 seconds (JVM running for 4.9)
+2019-02-27 10:53:20.287 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-27 10:53:20.287 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-27 10:53:20.295 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-02-27 10:53:20.302 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:53:20.302 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:53:20.302 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:53:20.302 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:53:20.303 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 10:53:20.303 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 10:53:20.303 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 10:53:20.303 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 10:53:20.419 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='RWE', userName='RWE', userPassword='EW', userPhoneNo='EW', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-02-27 10:53:20.419 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - this is RegisteServiceImpl !
+2019-02-27 10:53:20.423 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.dao.RegisteDaoImpl - this is RegisteDaoImpl !
+2019-02-27 11:15:48.944 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 6700 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 11:15:48.945 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 11:15:49.727 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 11:15:49.754 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10ms. Found 0 repository interfaces.
+2019-02-27 11:15:50.032 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3fdb3db5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 11:15:50.337 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 11:15:50.349 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 11:15:50.357 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 11:15:50.357 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 11:15:50.364 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 11:15:50.468 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 11:15:50.469 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1473 ms
+2019-02-27 11:15:50.637 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 11:15:50.854 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 11:15:51.681 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 11:15:51.836 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 11:15:51.840 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 11:15:51.855 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 11:15:51.884 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 11:15:52.233 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 11:15:52.233 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 11:15:52.234 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 11:15:52.251 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 11:15:52.269 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 11:15:52.272 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.076 seconds (JVM running for 4.998)
+2019-02-27 11:15:56.053 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-27 11:15:56.053 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-27 11:15:56.059 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2019-02-27 11:15:56.067 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 11:15:56.067 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 11:15:56.067 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 11:15:56.067 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 11:15:56.068 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 11:15:56.068 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 11:15:56.068 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 11:15:56.068 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 11:15:56.165 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='RWE', userName='RWE', userPassword='EW', userPhoneNo='EW', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-02-27 11:15:56.165 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - this is RegisteServiceImpl !
+2019-02-27 11:15:56.170 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.dao.RegisteDaoImpl - this is RegisteDaoImpl !
+2019-02-27 11:22:19.274 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 6804 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 11:22:19.275 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 11:22:19.883 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 11:22:19.910 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-02-27 11:22:20.161 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a343b362] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 11:22:20.434 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 11:22:20.445 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 11:22:20.454 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 11:22:20.454 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 11:22:20.460 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 11:22:20.600 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 11:22:20.600 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1285 ms
+2019-02-27 11:22:20.758 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 11:22:20.959 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 11:22:21.898 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 11:22:22.091 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 11:22:22.096 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 11:22:22.114 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 11:22:22.152 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 11:22:22.556 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 11:22:22.557 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 11:22:22.557 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 11:22:22.579 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 11:22:22.601 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 11:22:22.603 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.506 seconds (JVM running for 5.5)
+2019-02-27 11:22:27.572 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-27 11:22:27.572 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-27 11:22:27.582 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-02-27 11:22:27.590 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 11:22:27.590 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 11:22:27.590 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 11:22:27.591 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 11:22:27.591 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 11:22:27.591 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 11:22:27.591 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 11:22:27.591 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 11:22:27.707 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='RWE', userName='RWE', userPassword='EW', userPhoneNo='EW', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-02-27 11:22:27.707 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - this is RegisteServiceImpl !
+2019-02-27 11:22:27.714 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.dao.RegisteDaoImpl - this is RegisteDaoImpl !
+2019-02-27 11:23:22.155 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2019-02-27 11:23:58.108 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Starting ChatroomApplication on PC-20180414YODP with PID 6192 (D:\Project\chatRoom\ChatRoom\target\classes started by Administrator in D:\Project\chatRoom\ChatRoom)
+2019-02-27 11:23:58.109 [main] INFO  com.shenjian.chatroom.ChatroomApplication - No active profile set, falling back to default profiles: default
+2019-02-27 11:23:59.216 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-27 11:23:59.238 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+2019-02-27 11:23:59.490 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f8e1a08] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-27 11:23:59.757 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2019-02-27 11:23:59.770 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2019-02-27 11:23:59.778 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-27 11:23:59.778 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-27 11:23:59.784 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:\Program Files\TortoiseSVN\bin;H:\maven\apache-maven-3.5.4\bin\;D:\vue\;C:\Program Files\Git\cmd;H:\fiddler;C:\Users\Administrator\AppData\Roaming\npm;.]
+2019-02-27 11:23:59.921 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-27 11:23:59.921 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1729 ms
+2019-02-27 11:24:00.055 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Starting...
+2019-02-27 11:24:00.207 [main] INFO  com.zaxxer.hikari.HikariDataSource - test - Start completed.
+2019-02-27 11:24:01.036 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-27 11:24:01.229 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2019-02-27 11:24:01.234 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2019-02-27 11:24:01.255 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2019-02-27 11:24:01.294 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2019-02-27 11:24:01.700 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2019-02-27 11:24:01.701 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2019-02-27 11:24:01.701 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2019-02-27 11:24:01.721 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2019-02-27 11:24:01.741 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2019-02-27 11:24:01.743 [main] INFO  com.shenjian.chatroom.ChatroomApplication - Started ChatroomApplication in 4.561 seconds (JVM running for 5.986)
+2019-02-27 11:24:04.580 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-27 11:24:04.580 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-27 11:24:04.588 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2019-02-27 11:24:04.597 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 11:24:04.597 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 11:24:04.597 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 11:24:04.597 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 11:24:04.598 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is AccessFilter!
+2019-02-27 11:24:04.598 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getRequestURI:/registe
+2019-02-27 11:24:04.598 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getContextPath:
+2019-02-27 11:24:04.598 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.filter.AccessFilter - this is getServletPath:/registe
+2019-02-27 11:24:04.718 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.controller.RegisteController - userInfo--> UserInfo{sequenceNo=null, userId='null', loginName='RWE', userName='RWE', userPassword='EW', userPhoneNo='EW', userSex='null', userFixLinePhoneNo='null', userQqNo='null', userWxNo='null', userAddress='null', userIdentityCard='null', userBirthday='null', userLevel='null', userIrregularities='null', creaeteDate=null, updateDate=null, reserveColoum1='null', reserveColoum2='null', reserveColoum3='null'}
+2019-02-27 11:24:04.719 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.service.RegisteServiceImpl - this is RegisteServiceImpl !
+2019-02-27 11:24:04.725 [http-nio-8081-exec-1] INFO  com.shenjian.chatroom.dao.RegisteDaoImpl - this is RegisteDaoImpl !

@@ -6,11 +6,34 @@
     <script src="../js/sockjs.min.js"></script>
     <script src="../js/stomp.min.js"></script>
     <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/jquery.cookie.js"></script>
     <script src="../js/chat-room.js"></script>
 </head>
 <body>
-<textarea id="userName"> 呵呵</textarea>
-<input id="sendChatValue" placeholder="please input something">
-<button onclick="sendMassMessage()">发送</button>
+<!--加载页面时读取cookie里的用户信息-->
+<script>
+    $(function(){
+        alert("页面加载完成！");
+        var loginName = $.cookie('loginName');
+        var userId = $.cookie('userId');
+        $("#loginName").val(loginName);
+        $("#userId").val(userId);
+        stompQueue();
+
+    });
+</script>
+<div style="height: 500px; width: 1000px">
+    <input id="loginName"  value="">
+    <input id="userId"  hidden>
+    <input id="receiverName"  value="ami">
+    <input id="receiverId" value="ami">
+    <div style="height: 70%; width: 100%">
+        <textarea id="chatContext" style="height: 100%; width: 100%" readonly></textarea>
+    </div>
+    <div>
+        <input id="sendChatValue" placeholder="please input something">
+    </div>
+    <button onclick="sendAloneMessage()">发送</button>
+</div>
 </body>
 </html>

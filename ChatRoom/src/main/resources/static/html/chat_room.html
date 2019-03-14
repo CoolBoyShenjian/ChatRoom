@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多人聊天室</title>
+    <script src="../js/sockjs.min.js"></script>
+    <script src="../js/stomp.min.js"></script>
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/chat-room.js"></script>
+</head>
+<body>
+<div style="height: 500px; width: 1000px">
+    <input id="userName" placeholder="please set your name" onblur="stompTopic()">
+    <div style="height: 70%; width: 100%">
+        <textarea id="chatContext" style="height: 100%; width: 100%" readonly></textarea>
+    </div>
+    <div>
+        <input id="sendChatValue" placeholder="please input something">
+    </div>
+    <button onclick="sendMassMessage()">发送</button>
+</div>
+</body>
+</html>

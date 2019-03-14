@@ -4,9 +4,14 @@ import com.shenjian.chatroom.entity.RequestMessageInfo;
 import com.shenjian.chatroom.entity.ResponseMessageInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
+import org.springframework.messaging.simp.SimpMessagingTemplate;
 import org.springframework.stereotype.Controller;
+
+import javax.servlet.ServletRequest;
+import javax.servlet.http.HttpServletRequest;
 
 /**
  * @ClassName:StompController
@@ -42,13 +47,18 @@ public class StompController {
 	 * @Param [requestMessageInfo]
 	 * @return com.shenjian.chatroom.entity.ResponseMessageInfo
 	 **/
+	// 实现spring-boot 的发送模板类
+	@Autowired
+	private SimpMessagingTemplate messagingTemplate;
 	@MessageMapping("/singleRequest")
-	public ResponseMessageInfo singleChat(RequestMessageInfo requestMessageInfo){
+	public void singleChat(RequestMessageInfo requestMessageInfo){
 		logger.info("用户："+requestMessageInfo.getSenderId()+" 发送的信息是："
-				+ requestMessageInfo.getSendInfo() + "接收者是：" + requestMessageInfo.getReceiverId());
+				+ requestMessageInfo.getSendInfo() + " 接收者是：" + requestMessageInfo.getReceiverId());
 		ResponseMessageInfo responseMessageInfo = new ResponseMessageInfo();
 		responseMessageInfo.setSenderId(requestMessageInfo.getSenderId());
 		responseMessageInfo.setSendInfo(requestMessageInfo.getSendInfo());
-		return responseMessageInfo;
+
+		// 发送到指定的客户端
+		messagingTemplate.convertAndSendToUser(requestMessageInfo.getReceiverId(),"/alone",responseMessageInfo);
 	}
 }

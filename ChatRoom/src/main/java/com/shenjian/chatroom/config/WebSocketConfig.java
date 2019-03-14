@@ -45,6 +45,8 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer{
 	 * @return void
 	 **/
 	public void configureMessageBroker(MessageBrokerRegistry registry){
-		registry.enableSimpleBroker("/mass");
+		registry.enableSimpleBroker("/mass","/queue");
+		// 一对一时需要给用户发送的地址添加前缀
+		registry.setUserDestinationPrefix("/queue");
 	}
 }
